@@ -1,3 +1,6 @@
+from app.db.database import Base
+target_metadata = Base.metadata
+
 from logging.config import fileConfig
 
 from sqlalchemy import engine_from_config
